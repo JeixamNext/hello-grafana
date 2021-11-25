@@ -68,6 +68,11 @@ services:
       - "9113:9113"
     command: -nginx.scrape-uri=http://nginx/status
     # la direcion del status por que el servicio se llama nginx
+  influxdb2:
+    image: influxdb:latest
+    ports: 
+      - "8086:8086"
+
 volumes:
   loki:
   grafana:
