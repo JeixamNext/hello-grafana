@@ -30,3 +30,4 @@ scrape_configs:
         - "localhost:9090"
         - "sampleapp:8080"
         - "10.250.4.4:9100"
+        - "nginx-prometheus-exporter:9113"
