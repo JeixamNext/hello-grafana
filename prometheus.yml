@@ -32,3 +32,5 @@ scrape_configs:
         - "10.250.4.4:9100"
         - "nginx-prometheus-exporter:9113"
         - "influxdb2:8086"
+        - "amazon-prometheus-exporter:9113"
+        - "grafana:3000"
